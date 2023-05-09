@@ -4,6 +4,7 @@ import { styled } from '@mui/material/styles';
 const movies = [  {    id: 1,    title: 'The Shawshank Redemption',    genre: 'Drama',    rating: 9.3,    imageUrl: 'https://m.media-amazon.com/images/M/MV5BMTM0NjUxMDk5MF5BMl5BanBnXkFtZTcwNDMxNDY3Mw@@._V1_FMjpg_UX1800_.jpg'  },  {    id: 2,    title: 'The Godfather',    genre: 'Crime, Drama',    rating: 9.2,    imageUrl: 'https://www.imdb.com/title/tt0068646/mediaviewer/rm3354267136'  },  {    id: 3,    title: 'The Dark Knight',    genre: 'Action, Crime, Drama',    rating: 9.0,    imageUrl: 'https://www.imdb.com/title/tt0468569/mediaviewer/rm1368828928'  },  {    id: 4,    title: 'Schindler\'s List',    genre: 'Biography, Drama, History',    rating: 8.9,    imageUrl: 'https://www.imdb.com/title/tt0108052/mediaviewer/rm4156924416'  },  {    id: 5,    title: 'The Lord of the Rings: The Return of the King',    genre: 'Action, Adventure, Drama',    rating: 8.9,    imageUrl: 'https://www.imdb.com/title/tt0167260/mediaviewer/rm1141785856'  },];
 
 const Container = styled('div')({
+    fontFamily:'Roboto , sans-serif',
    height: '100%',
    overflow: 'auto',
     width: '100%',
