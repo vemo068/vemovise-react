@@ -64,7 +64,7 @@ const Feed = () => {
     <Container>
       {movies.map(movie => (
         <Card key={movie.id}>
-          <Image src={movie.poster} alt={movie.Title} />
+          <Image src={movie.Poster} alt={movie.Title} />
           <Title>{movie.Title}</Title>
           <Genre>{movie.Year}</Genre>
           <Rating>IMDb Rating: 5</Rating>
